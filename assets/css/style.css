@@ -1,0 +1,146 @@
+a {
+    text-decoration: none;
+}
+body {
+    background: rgb(243, 245, 244);
+    font-family: Nunito , sans-serif ;   
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.8;
+}
+body, h1,h2,h3,h4,h5,h6{
+    color: #555;
+}
+.title h3{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+    font-size: 18px;
+}
+.header{
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background: rgb(15, 123, 196);
+    box-shadow: 2px 0 5px 0 rgba(187,187,187,0.25);
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.left_nav, #sub_menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#sub_menu{
+    display: none;
+}
+.left_nav {
+    background: #fff;
+    width: 20%;
+    position: fixed;
+    overflow: auto;
+    clear: both;
+    height: 100%;
+    box-sizing: border-box;
+    z-index: 100;
+    box-shadow: 2px 0 5px 0 rgba(187,187,187,0.25);
+}
+.menu li a, #sub_menu li a{
+    display: block;
+    color: #555;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+ .menu li a:active, #sub_menu li a {
+    background-color: rgba(39, 38, 38, 0.041);
+  }
+  
+ .menu li a:hover {
+    background-color: rgba(39, 38, 38, 0.041);
+  }
+  #sub_menu li a:hover {
+      background-color: rgba(187,187,187,0.25);
+  }
+.emp_form {
+    margin: 0px auto;
+    width: 75%;
+    min-width: 300px;
+    background: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 1px 5px #E0E0E0;
+    -moz-box-shadow: 0 1px 5px #E0E0E0;
+    -webkit-box-shadow: 0 1px 5px #E0E0E0;
+}
+.qual_tab {
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+}
+.qual_tab td,th {
+    padding: 4px 8px;
+}
+.tab, #saveEmpDetails {
+    display: none;
+}
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #4CAF50;
+  }
+  .msg-error {
+      color: rgb(241, 103, 126);
+  }
+  .msg-success {
+      color: rgb(18, 185, 74);
+  }
+  .emp_table{
+    margin: 0px auto;
+    width: 100%;
+    min-width: 300px;
+    background: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 1px 5px #E0E0E0;
+    -moz-box-shadow: 0 1px 5px #E0E0E0;
+    -webkit-box-shadow: 0 1px 5px #E0E0E0;
+  }
+  .uppertext{
+      text-transform: uppercase;
+  }
+  .box {
+      background-color: #fff;
+      border-radius: 4px;
+      padding: 10px;
+      height: 200px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 5px #E0E0E0;
+      -moz-box-shadow: 0 1px 5px #E0E0E0;
+      -webkit-box-shadow: 0 1px 5px #E0E0E0;
+  }
+  .icon {
+      background-color: rgb(15, 123, 196);
+      padding: 12px 14px;
+      border-radius: 50%;
+      border: none;
+      color: #fff;
+      font-weight: 600;
+  }
